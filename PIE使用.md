@@ -28,7 +28,9 @@
 **开始**：在我的www目录中，放入了对应的文件。
 
 ###使用有两种方法：
-**方法一：**
+
+### 方法一：
+
 > 使用js方法（可以在本地打开，不用本地服务器）；
 
 ***第一步：引入JS文件***
@@ -169,7 +171,7 @@ $(function () {
 
 ```
 
-**第二种方法：PIE.htc文件（这里得使用本地服务器了）**
+### 第二种方法：PIE.htc文件（这里得使用本地服务器了）
 
 **第一步:**
 
@@ -186,6 +188,8 @@ $(function () {
 ** 第四步：看效果 **
 
 ![image](http://a1.qpic.cn/psb?/V13eqRud0c3Eb1/H6sNXZCcI.7dt.5WHsaShYxZyq*wAhumn2dF.bKGpsE!/b/dHgBAAAAAAAA&ek=1&kp=1&pt=0&bo=MQPKAAAAAAADF8o!&su=2182959105&tm=1483851600&sce=0-12-12&rf=2-9)
+
+**源码：**
 
 #### 扩展
 
