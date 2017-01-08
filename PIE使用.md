@@ -135,8 +135,6 @@ $(function () {
 	<div class="no2 attribute"></div>
 	<div class="no3 attribute"></div>
 	<div class="no4 attribute"></div>
-	<div class="no5 attribute"></div>
-	<!-- <div class="no5 attribute"></div> -->
 	<script>
 		// 下面的代码是获取class兼容类名
 		    function getByClassName(parent,className){
@@ -240,8 +238,6 @@ $(function () {
 	<div class="no2 attribute"></div>
 	<div class="no3 attribute"></div>
 	<div class="no4 attribute"></div>
-	<div class="no5 attribute"></div>
-	
 </body>
 </html>
 ```
