@@ -80,3 +80,91 @@ $(function () {
 > 打开IEteseter进行测试,该上图片了。
 
 ![image](http://a2.qpic.cn/psb?/V13eqRud0c3Eb1/dk9P.kT6D9BM*00qHXoQ4KbGmZxsECI*P95TkW.L0jI!/b/dN0AAAAAAAAA&ek=1&kp=1&pt=0&bo=ywPMAAAAAAADFzY!&su=3152755329&tm=1483851600&sce=0-12-12&rf=2-9)
+
+### 源码：
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	 <!--[if lt IE 10]>
+	        <script src="js/PIE_IE678.js"></script>
+	 <![endif]-->
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.attribute {
+			width: 120px;
+			height: 120px;
+			margin: 5px 12px;
+			float: left;
+		}
+		.no1 {
+			background: red;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+		}
+		.no2 {
+			background: aqua;
+			box-shadow:  0px 6px 10px 3px #000;
+		}
+		.no3 {
+			background: -webkit-linear-gradient(#EEFF99, #66EE33);
+			background: -moz-linear-gradient(#EEFF99, #66EE33);
+			background: -ms-linear-gradient(#EEFF99, #66EE33);
+			background: -o-linear-gradient(#EEFF99, #66EE33);
+			background: linear-gradient(#EEFF99, #66EE33);
+			-pie-background: linear-gradient(#EEFF99, #66EE33); /* 注意：这里要加前缀 */
+		}
+		 .no4 {
+			background-image: url("img/so.png"),url("img/date_time0.png");
+			-pie-background: url("img/so.png"),url("img/date_time0.png");
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="no1 attribute"></div>
+	<div class="no2 attribute"></div>
+	<div class="no3 attribute"></div>
+	<div class="no4 attribute"></div>
+	<div class="no5 attribute"></div>
+	<!-- <div class="no5 attribute"></div> -->
+	<script>
+		// 下面的代码是获取class兼容类名
+		    function getByClassName(parent,className){
+		        var nodes = parent.getElementsByTagName("*");
+		        var arr = [];
+		        for(var i=0;i<nodes.length;i++){
+		            if(nodes[i].className.indexOf(className) != -1){
+		                arr.push(nodes[i]);
+		            }
+		        }
+		        return arr;
+		    }
+		    //获取class类名
+		var cssSX = getByClassName(document,'attribute');
+		if (window.PIE) {
+		    for(var i=0;i<cssSX.length;i++){
+		        PIE.attach(cssSX[i]);
+		    }
+		}
+		/*jquery
+		$(function () {
+			 if (window.PIE) {
+				$('.attribute').each(function() {
+				 	PIE.attach(this);
+				});
+			 }
+		})
+		*/
+	</script>
+</body>
+</html>
+
+```
