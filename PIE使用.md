@@ -45,3 +45,21 @@
 
 ![image](http://a3.qpic.cn/psb?/V13eqRud0c3Eb1/m9JBOhPhBpzUP1kOx6a9ecixe21xYmSTisn9AO08VGU!/b/dHoBAAAAAAAA&ek=1&kp=1&pt=0&bo=OgK.AAAAAAADF7Q!&su=486568737&tm=1483851600&sce=0-12-12&rf=2-9)
 
+**第三步：在IE低版本浏览器进行实现；**
+
+> 先得把咱们要的js引进页面，然后测试下是否引进成功；在js中alert(window.PIE);，弹出object就是成功，如果是unfinished的就是未成功。获取class名字为attribute的。然后进行for循环。
+
+**注意**：这里使用封装好的获取class属性值。
+
+![image](http://a3.qpic.cn/psb?/V13eqRud0c3Eb1/.bp7avoz0xj3ZoRjI7dzWfq7MnoWURbe34RGVHvI6OE!/b/dAoBAAAAAAAA&ek=1&kp=1&pt=0&bo=7gH5AAAAAAADBzQ!&su=4155881265&tm=1483851600&sce=0-12-12&rf=2-9)
+
+```javascript
+// 获取元素：
+var cssSX = getByClassName(document,'attribute');
+// 判断window.PIE对象是否存在
+if (window.PIE) {
+		    for(var i=0;i<cssSX.length;i++){
+		        PIE.attach(cssSX[i]);
+		    }
+		}
+```
