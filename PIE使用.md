@@ -181,18 +181,72 @@ $(function () {
 
 **第二步是和js部分一样，这里略过。**
 
-** 第三步 **
+**第三步**
 
 > 在这里不使用js文件，是引入文件PIE.htc文件。开启自己的本地服务器，然后在IE浏览器中输入127.0.0.1进入自己写的html。
 
-** 第四步：看效果 **
+**第四步：看效果**
 
 ![image](http://a1.qpic.cn/psb?/V13eqRud0c3Eb1/H6sNXZCcI.7dt.5WHsaShYxZyq*wAhumn2dF.bKGpsE!/b/dHgBAAAAAAAA&ek=1&kp=1&pt=0&bo=MQPKAAAAAAADF8o!&su=2182959105&tm=1483851600&sce=0-12-12&rf=2-9)
 
 **源码：**
 
+```html
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.attribute {
+			width: 120px;
+			height: 120px;
+			margin: 5px 12px;
+			float: left;
+			behavior: url("js/PIE/PIE.htc"); /*路径注意：基于html的文件查找的路径，而不像背景图片一样的 */
+		}
+		.no1 {
+			background: red;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+		}
+		.no2 {
+			background: aqua;
+			box-shadow:  0px 6px 10px 3px #000;
+		}
+		.no3 {
+			background: -webkit-linear-gradient(#EEFF99, #66EE33);
+			background: -moz-linear-gradient(#EEFF99, #66EE33);
+			background: -ms-linear-gradient(#EEFF99, #66EE33);
+			background: -o-linear-gradient(#EEFF99, #66EE33);
+			background: linear-gradient(#EEFF99, #66EE33);
+			-pie-background: linear-gradient(#EEFF99, #66EE33);
+		}
+		 
+		 .no4 {
+			background-image: url("img/so.png"),url("img/date_time0.png");
+			-pie-background: url("img/so.png"),url("img/date_time0.png");
+		}
+
+	</style>
+</head>
+<body>
+	<div class="no1 attribute"></div>
+	<div class="no2 attribute"></div>
+	<div class="no3 attribute"></div>
+	<div class="no4 attribute"></div>
+	<div class="no5 attribute"></div>
+	
+</body>
+</html>
+```
 #### 扩展
 
-也可以多个渐变及图片格式：！[http://css3pie.com/demos/gradient-patterns/](http://css3pie.com/demos/gradient-patterns/);
+也可以多个渐变及图片格式：[http://css3pie.com/demos/gradient-patterns/](http://css3pie.com/demos/gradient-patterns/)
 
 ### 结语：在百度中搜资料，最后看到效果都不出来的，真心伤心(；′⌒`)。经过反复的研究学习，反复的百度。最后自己无意间看到了希望，整理出来分享。分享快乐。
