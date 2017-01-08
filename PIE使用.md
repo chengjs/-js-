@@ -40,4 +40,8 @@
 **第二步： 写好样式：**
 
 > 给第一个div有圆角。第二个div给阴影、第三个div给渐变(这里要给前缀-pie-background: linear-gradient(red,pink);)、第四个div给多背景图片(这里要给前缀-pie-background-image: url(图片地址1),url(图片地址2))。
-![image](http://a4.qpic.cn/psb?/V13eqRud0c3Eb1/nuu41XqLeDHmqZGtGbi1Cp5Em2wVsEyR2FGc2RGbtzQ!/b/dHcBAAAAAAAA&ek=1&kp=1&pt=0&bo=EAKOAAAAAAADF64!&su=5162276385&tm=1483851600&sce=0-12-12&rf=2-9)
+
+http://a4.qpic.cn/psb?/V13eqRud0c3Eb1/nuu41XqLeDHmqZGtGbi1Cp5Em2wVsEyR2FGc2RGbtzQ!/b/dHcBAAAAAAAA&ek=1&kp=1&pt=0&bo=EAKOAAAAAAADF64!&su=5162276385&tm=1483851600&sce=0-12-12&rf=2-9)
+
+![image](http://a3.qpic.cn/psb?/V13eqRud0c3Eb1/m9JBOhPhBpzUP1kOx6a9ecixe21xYmSTisn9AO08VGU!/b/dHoBAAAAAAAA&ek=1&kp=1&pt=0&bo=OgK.AAAAAAADF7Q!&su=486568737&tm=1483851600&sce=0-12-12&rf=2-9)
+
