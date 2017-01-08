@@ -25,7 +25,14 @@
 
 4.要准备几张图片（PNG透明图片）
 
+**开始**：在我的www目录中，放入了对应的文件。
+
 ###使用有两种方法：
 **方法一：**
 > 使用js方法（可以在本地打开，不用本地服务器）；
 
+***第一步：引入JS文件***
+
+> 最好使用css的hack来控制IE读取，这样减少宽带
+
+![image](http://a2.qpic.cn/psb?/V13eqRud0c3Eb1/NwbQesaXGuhyHDe8qxTkLZREKeLgOUAs7mlrIhN0wOI!/b/dOUAAAAAAAAA&ek=1&kp=1&pt=0&bo=tgEqAQAAAAADF64!&su=3108160145&tm=1483851600&sce=0-12-12&rf=2-9）
