@@ -168,3 +168,27 @@ $(function () {
 </html>
 
 ```
+
+**第二种方法：PIE.htc文件（这里得使用本地服务器了）**
+
+**第一步:**
+
+> js文件就不需要了，得起一个class类引进PIE.htc文件（外面引进不是以css文件地址为基准，而是以html的文件地址进行查找）,下面图：
+
+![image](http://a1.qpic.cn/psb?/V13eqRud0c3Eb1/ItemuLVQEAo3*V2.thEeVXDtMP6QazeByl9d51X7bZI!/b/dHgBAAAAAAAA&ek=1&kp=1&pt=0&bo=ogObAAAAAAADFwg!&su=2172683361&tm=1483851600&sce=0-12-12&rf=2-9)
+
+**第二步是和js部分一样，这里略过。**
+
+** 第三步 **
+
+> 在这里不使用js文件，是引入文件PIE.htc文件。开启自己的本地服务器，然后在IE浏览器中输入127.0.0.1进入自己写的html。
+
+** 第四步：看效果 **
+
+![image](http://a1.qpic.cn/psb?/V13eqRud0c3Eb1/H6sNXZCcI.7dt.5WHsaShYxZyq*wAhumn2dF.bKGpsE!/b/dHgBAAAAAAAA&ek=1&kp=1&pt=0&bo=MQPKAAAAAAADF8o!&su=2182959105&tm=1483851600&sce=0-12-12&rf=2-9)
+
+#### 扩展
+
+也可以多个渐变及图片格式：！[http://css3pie.com/demos/gradient-patterns/](http://css3pie.com/demos/gradient-patterns/);
+
+### 结语：在百度中搜资料，最后看到效果都不出来的，真心伤心(；′⌒`)。经过反复的研究学习，反复的百度。最后自己无意间看到了希望，整理出来分享。分享快乐。
