@@ -58,8 +58,25 @@
 var cssSX = getByClassName(document,'attribute');
 // 判断window.PIE对象是否存在
 if (window.PIE) {
-		    for(var i=0;i<cssSX.length;i++){
-		        PIE.attach(cssSX[i]);
-		    }
-		}
+    for(var i=0;i<cssSX.length;i++){
+	PIE.attach(cssSX[i]);
+    }
+}
 ```
+
+*如果你是使用jQuery库的话，下面：*
+```JavaScript
+$(function () {
+	if (window.PIE) {
+		$('.attribute').each(function() {
+			PIE.attach(this);
+		});
+	 }
+})
+```
+
+**第四步：看效果**
+
+> 打开IEteseter进行测试,该上图片了。
+
+![image](http://a2.qpic.cn/psb?/V13eqRud0c3Eb1/dk9P.kT6D9BM*00qHXoQ4KbGmZxsECI*P95TkW.L0jI!/b/dN0AAAAAAAAA&ek=1&kp=1&pt=0&bo=ywPMAAAAAAADFzY!&su=3152755329&tm=1483851600&sce=0-12-12&rf=2-9)
